@@ -14,10 +14,10 @@ long int num2;
 long long int num3;
 float decimal;
 
-printf("Size of a char: %d byte(S)\n", (int)sizeof(word));
-printf("Size of an int: %d byte(S)\n", (int)sizeof(num));
-printf("Size of a long int: %d byte(S)\n", (int)sizeof(num2));
-printf("Size of a long long int: %d byte(S)\n", (int)sizeof(num3));
-printf("Size of a float: %d byte(S)\n", (int)sizeof(decimal));
+printf("Size of a char: %lu byte(S)\n", (unsigned long)sizeof(word));
+printf("Size of an int: %lu byte(S)\n", (unsigned long)sizeof(num));
+printf("Size of a long int: %lu byte(S)\n", (unsigned long)sizeof(num2));
+printf("Size of a long long int: %lu byte(S)\n", (unsigned long)sizeof(num3));
+printf("Size of a float: %lu byte(S)\n", (unsigned long)sizeof(decimal));
 return (0);
 }
