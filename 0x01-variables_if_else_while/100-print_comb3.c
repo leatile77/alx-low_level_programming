@@ -13,15 +13,16 @@ for (a = '0'; a < '9'; a++)
 {
 for (b = '0'; b <= '9'; b++)
 {
-if (b > a || (b != '9' && a != '8'))
+if (b > a )
 {
 putchar(a);
 putchar(b);
 putchar(',');
 putchar(' ');
 }
+else if (a == '8' && b == '9')
 }
-
+putchar('\n');
 }
 
 
