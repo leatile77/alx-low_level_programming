@@ -15,12 +15,13 @@ for (b = '0'; b <= '9'; b++)
 {
 if (b > a)
 {
+
 putchar(a);
 putchar(b);
 }
-putchar(',');
-putchar(' ');
 }
+putchar(',');
+putchar(' ')
 }
 
 return (0);
