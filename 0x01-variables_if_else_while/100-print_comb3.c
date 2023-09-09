@@ -21,7 +21,7 @@ putchar(b);
 }
 }
 putchar(',');
-putchar(' ')
+putchar(' ');
 }
 
 return (0);
