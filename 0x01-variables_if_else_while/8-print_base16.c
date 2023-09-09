@@ -11,7 +11,7 @@ int main(void)
 int num;
 char alph;
 
-for (num = '0'; num < '10'; num++)
+for (num = '0'; num <= '9'; num++)
 putchar(num);
 
 for (alph = 'a'; alph < 'g'; alph++)
