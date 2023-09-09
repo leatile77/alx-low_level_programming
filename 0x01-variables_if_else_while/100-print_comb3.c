@@ -19,9 +19,10 @@ if (b > a)
 putchar(a);
 putchar(b);
 }
-}
+
 putchar(',');
 putchar(' ');
+}
 }
 
 return (0);
