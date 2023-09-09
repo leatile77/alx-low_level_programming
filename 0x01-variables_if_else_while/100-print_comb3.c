@@ -20,8 +20,8 @@ putchar(b);
 if(!(b == '9' && a == '8'))
 {
 putchar(',');
-putchar(' ');
 }
+putchar(' ');
 }
 }
 }
