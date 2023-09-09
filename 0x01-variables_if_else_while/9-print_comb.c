@@ -17,11 +17,8 @@ if (num < 9)
 putchar(',');
 putchar(' ');
 }
-else
-{
+
 putchar('\n');
-break;
-}
 }
 
 return (0);
