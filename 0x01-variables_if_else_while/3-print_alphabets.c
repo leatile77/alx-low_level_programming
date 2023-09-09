@@ -21,7 +21,7 @@ putchar(alpha_Bet);
 for (alpha_Bet = 'A'; alpha_Bet <= 'Z'; alpha_Bet++)
 {
 putchar(alpha_Bet);
-putchar('\n');
 }
-	return (0);
+
+return (0);
 }
