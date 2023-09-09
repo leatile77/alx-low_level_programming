@@ -14,7 +14,7 @@ char alpha_bet;
 
 for (alpha_bet = 'a'; alpha_bet <= 'z'; alpha_bet++)
 {
-putchsr(alpha_bet);
+putchar(alpha_bet);
 putchar("\n");
 ]
 
