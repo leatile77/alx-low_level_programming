@@ -19,7 +19,7 @@ putchar(' ');
 }
 else if (num ==9)
 {
-putchar('\n';
+putchar('\n');
 }
 }
 
