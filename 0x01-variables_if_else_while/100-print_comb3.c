@@ -17,14 +17,11 @@ if (b > a)
 {
 putchar(a);
 putchar(b);
-if (!(b == '9' && a == '8'))
-{
-putchar(',');
 }
+putchar(',');
 putchar(' ');
 }
 }
-}
-putchar('\n');
+
 return (0);
 }
