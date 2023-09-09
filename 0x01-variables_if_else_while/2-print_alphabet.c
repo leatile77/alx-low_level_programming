@@ -16,6 +16,7 @@ for (alpha_bet = 'a'; alpha_bet <= 'z'; alpha_bet++)
 {
 putchar(alpha_bet);
 }
+putchar('\n');
 
 return (0);
 }
