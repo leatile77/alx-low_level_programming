@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * print_x_10
+ * print_alphabet_x10 - Print alpha on x10 rows
+ *
+ * no return
  */
 
 void print_alphabet_x10(void)
