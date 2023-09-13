@@ -12,7 +12,6 @@ if (n < 0)
 {
 n *= -1;
 }
-int last;
-last = n % 10;
-return (last);
+n = n % 10;
+return (n);
 }
