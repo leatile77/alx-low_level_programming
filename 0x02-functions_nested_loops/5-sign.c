@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * print_sign -func to check sign
  * n - is n less or greater than zero
  *
  * Return: 0 or 1
