@@ -12,8 +12,13 @@ int main(void)
 int num;
 for (num = 1; num <= 100; num++)
 {
+if ((num % 3 == 0) && (num % 5 == 0))
+{
+printf("FizzBuzz");
+printf(" ");
+}
 
-if (num % 3 == 0)
+else if (num % 3 == 0)
 {
 printf("Fizz");
 printf(" ");
@@ -22,12 +27,6 @@ printf(" ");
 else if (num % 5 == 0)
 {
 printf("Buzz");
-printf(" ");
-}
-
-else if ((num % 3 == 0) && (num % 5 == 0))
-{
-printf("FizzBuzz");
 printf(" ");
 }
 
