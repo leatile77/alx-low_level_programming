@@ -2,8 +2,8 @@
 
 /**
  * mul - Multiplies 2 numbers
- * @a - first num
- * @b - second num 
+ * @a: first num
+ * @b: second num
  *
  * Return: c
  */
