@@ -2,7 +2,7 @@
 
 /**
  * print_line - Prints a line
- * @n - number of _
+ * @n: number of _
  * Return: 0
  */
 
@@ -15,7 +15,7 @@ _putchar('\n');
 
 else
 {
-for (int i = 0; i < n; i++)
+for (int i = 1; i <= n; i++)
 {
 _putchar('_');
 }
