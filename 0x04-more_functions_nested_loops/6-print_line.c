@@ -3,7 +3,7 @@
 /**
  * print_line - Prints a line
  * @n: number of _
- * Return: 0
+ * Return: void
  */
 
 void print_line(int n)
@@ -23,5 +23,4 @@ _putchar('_');
 _putchar('\n');
 }
 
-return (0);
 }
