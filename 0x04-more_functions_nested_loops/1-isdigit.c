@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - checks digit
- * @c - test subject
+ * @c: test subject
  * Return: 0 (if @c is not a digit) or 1 (if @c is a digit)
  */
 
