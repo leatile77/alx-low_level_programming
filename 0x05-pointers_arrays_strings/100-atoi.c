@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
+ * _atoi - A function that convert a string to an integer
+ * @s: String to be converted
  *
- *
- *
- *
+ * Return: integer
  */
 
 int _atoi(char *s)
@@ -38,7 +38,7 @@ break;
 x++;
 }
 
-_long = _long * low;
+_long = _long *low;
 
-return(_long);
+return (_long);
 }
