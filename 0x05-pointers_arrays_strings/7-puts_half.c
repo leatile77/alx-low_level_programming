@@ -24,7 +24,7 @@ _putchar(str[n]);
 }
 }
 
-else
+else if (j % 2 != 0)
 {
 for (n = (j - 1) / 2; n <= j; n++)
 {
