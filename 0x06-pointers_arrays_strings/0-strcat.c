@@ -10,22 +10,25 @@
 
 char *_strcat(char *dest, char *src)
 {
-int i, j;
+int i, x, y;
+x = 0;
+y = 0;
 for (i = 0; dest[i] != '\0'; i++)
 {
-;
+x++;
 }
 
-j = -1;
-do
+for (i = 0; src[i] != '\0'; i++)
 {
-j++;
-dest[i] = src[j];
-i++;
+y++;
 }
-while (src[j] != '\0');
 
-dest[i++] = '\0';
+for (i = 0; i <= y; i++)
+{
+dest[x + i] = src[i];
+}
+
+
 
 return (dest);
 }
