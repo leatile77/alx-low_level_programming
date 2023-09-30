@@ -20,6 +20,7 @@ return (1);
 
 add += atoi(argv[i]);
 }
+if (argc > 1)
 printf("%d\n", add);
 
 return (0);
