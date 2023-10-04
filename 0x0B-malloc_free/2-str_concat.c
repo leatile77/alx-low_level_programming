@@ -11,7 +11,6 @@
 
 char *str_concat(char *s1, char *s2)
 {
-
 char *conct;
 int i, n, x, k;
 
@@ -19,7 +18,6 @@ if (s1 == NULL)
 {
 s1 = "";
 }
-
 if (s2 == NULL)
 {
 s2 = "";
@@ -39,7 +37,7 @@ n++;
 
 x = n + i;
 
-conct = malloc((sizeof(char) * x) + 1);
+conct = malloc((sizeof(char) * x) +1);
 
 if (conct == NULL)
 {
@@ -61,7 +59,6 @@ conct[k] = s2[n];
 n++;
 }
 }
-
 conct[k] = '\0';
 return (conct);
 }
