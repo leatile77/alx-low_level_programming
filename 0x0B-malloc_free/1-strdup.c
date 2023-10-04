@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ * _strdup - Function copies str into newly allocated memory
+ * @str: string to copy/duplicate
+ *
+ *Return: p or NULL
+ */
+
 char *_strdup(char *str)
 {
 char *p;
@@ -17,7 +24,7 @@ while (str[i])
 i++;
 }
 
-p = malloc(i * sizeof(char) + 1);
+p = malloc((sizeof(char) * i) + 1);
 
 if (p == NULL)
 {
