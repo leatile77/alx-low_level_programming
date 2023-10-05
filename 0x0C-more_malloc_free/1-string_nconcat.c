@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
+ * string_nconcat - Function that concat 2 strings into newly alloc mem
+ * @s1: first string to add to mem
+ * @s2: second string to add n chars to mem
+ * @n: number of chars from s2
  *
- *
- *
- *
- *
- *
+ * Return: NULL or p
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
