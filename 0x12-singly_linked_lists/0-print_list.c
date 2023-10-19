@@ -5,7 +5,7 @@
  * print_list - Function that prints a list
  * @h: list to print
  *
- * Return: number of nodes 
+ * Return: number of nodes
  */
 
 size_t print_list(const list_t *h)
@@ -15,17 +15,17 @@ p = 0;
 
 while (h)
 {
-if (!h->str)
+if (!(h->str))
 {
 printf("[0] (nil)\n");
 }
 
 else
 {
-printf("[%u] %s\n", h->len, h_>str)
-}
+printf("[%u] %s\n", h->len, h->str);
 h = h->next;
-p++
+}
+p++;
 }
 
 return (p);
