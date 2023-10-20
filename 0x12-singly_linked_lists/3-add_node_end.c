@@ -13,10 +13,11 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-list_t *new;
+list_t *new, *tempo;
 unsigned int len;
 
 len = 0;
+tempo = *head;
 
 while (str[len])
 {
@@ -37,6 +38,7 @@ new->next = NULL;
 if (*head == NULL)
 {
 *head = new;
+tempo->next = new;
 }
 
 return (new);
