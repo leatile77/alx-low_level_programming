@@ -38,6 +38,14 @@ new->next = NULL;
 if (*head == NULL)
 {
 *head = new;
+}
+
+else
+{
+while (tempo->next != NULL)
+{
+tempo = tempo->next;
+}
 tempo->next = new;
 }
 
