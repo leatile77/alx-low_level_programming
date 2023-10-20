@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * add_node - adss node to the start of the list
@@ -13,7 +14,7 @@ list_t *add_node(list_t **head, const char *str)
 {
 list_t *new;
 unsigned int len;
-len - 0;
+len = 0;
 
 while (str[len])
 {
@@ -32,5 +33,5 @@ new->len = len;
 new->next = (*head);
 (*head) = new;
 
-return (head);
+return (*head);
 }
