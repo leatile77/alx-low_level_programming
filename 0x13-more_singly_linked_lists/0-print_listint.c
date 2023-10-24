@@ -16,13 +16,8 @@ num = 0;
 
 while (h)
 {
-
 printf("%d\n", h->n);
 h = h->next;
-if (h->next == NULL)
-{
-;
-}
 num++;
 }
 return (num);
