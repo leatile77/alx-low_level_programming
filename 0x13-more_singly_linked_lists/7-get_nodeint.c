@@ -20,13 +20,9 @@ if (!n_node)
 return (NULL);
 }
 
-
-while (n_node)
-{
 for (i = 0; i < index; i++)
 {
 n_node = n_node->next;
-}
 }
 
 return (n_node);
