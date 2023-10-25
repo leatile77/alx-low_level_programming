@@ -15,18 +15,17 @@ unsigned int i;
 listint_t *n_node;
 n_node = head;
 
-if (head == NULL)
+if (!n_node)
 {
 return (NULL);
 }
 
 
-else
+while (n_node)
 {
-while (n_node && i < index)
+for (i = 0; i < index; i++)
 {
 n_node = n_node->next;
-i++;
 }
 }
 
