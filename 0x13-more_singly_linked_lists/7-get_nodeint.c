@@ -28,11 +28,6 @@ while (n_node && i < index)
 n_node = n_node->next;
 i++;
 }
-
-if (n_node == NULL)
-{
-return (NULL);
-}
 }
 
 return (n_node);
