@@ -11,6 +11,7 @@
 
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
+unsigned int i;
 listint_t *n_node;
 n_node = head;
 
@@ -19,22 +20,20 @@ if (head == NULL)
 return (NULL);
 }
 
-if (index == 0)
-{
-return (head);
-}
 
 else
 {
-while (index != 0)
+while (n_node && i < index)
 {
 n_node = n_node->next;
-index--;
+i++;
 }
-if (!n_node)
+
+if (n_node == NULL)
 {
 return (NULL);
 }
 }
+
 return (n_node);
 }
