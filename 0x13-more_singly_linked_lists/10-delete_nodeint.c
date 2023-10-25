@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
+ * delete_nodeint_at_index - Function to delete node at index n
+ * @head: Our list
+ * @index: index of node to delete
  *
- *
- *
- *
- *
+ * Return: -1 (fail) or 1 (success)
  */
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
