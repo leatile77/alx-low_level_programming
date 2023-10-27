@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * flip_bits - Function that returns number of bits to flip to get to another number
+ * flip_bits - Function returns number of bits to flip & get next num
  * @n: Bits to flip
  * @m: bits to flip to
  *
@@ -10,8 +10,8 @@
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-int i, flipped;
-unsigned long int prev, xor;
+int i;
+unsigned long int prev, xor, flipped;
 
 flipped = 0;
 xor = n ^ m;
