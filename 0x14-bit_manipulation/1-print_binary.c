@@ -17,7 +17,7 @@ for (i = 63; i >= 0; i--)
 {
 bin = n >> i;
 
-if (bin == 1)
+if (bin & 1)
 {
 _putchar('1');
 }
