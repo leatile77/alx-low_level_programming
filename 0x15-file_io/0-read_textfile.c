@@ -5,8 +5,8 @@
 
 /**
  * read_textfile - Function to read and print a file
- * filename - file to print
- * letters - Nummber of chars to print from filename
+ * @filename: file to print
+ * @letters: Nummber of chars to print from filename
  *
  * Return: 0 or number of printed chars
  */
