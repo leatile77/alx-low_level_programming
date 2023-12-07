@@ -1,6 +1,12 @@
 #include "lists.h"
 
-
+/**
+ * add_dnodeint_end - Function that adds a node at end of list
+ * @head: head of list to add nodes in
+ * @n: data for each node
+ *
+ * Return: Address of added node
+ */
 
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
