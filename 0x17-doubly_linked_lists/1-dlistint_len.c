@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * print_dlistint_t - Function that prints int data in a list
+ * dlistint_len - Function that counts elements in a list
  * @h: list to print data from
  *
  * Return: number of nodes
@@ -25,8 +25,8 @@ size_t dlistint_len(const dlistint_t *h)
       
   while (h != NULL)
     {
-      h = h->next;
       num++;
+      h = h->next;
     }
   return (num);
 }
