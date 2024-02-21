@@ -1,4 +1,4 @@
-#1/usr/bin/python3
+#!/usr/bin/python3
 """Defines a function that measures an islands perimeter."""
 def island_perimeter(grid):
     """Returns the perimeter of the island described in grid.
